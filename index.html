@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HP Calendar — Support</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>HP Calendar</h1>
+  <p class="lede">A calendar of dates from the Wizarding World. Support and contact.</p>
+  <nav><a href="index.html">Support</a><a href="privacy.html">Privacy Policy</a></nav>
+</header>
+
+<p>HP Calendar shows you what happened on today's date in the Wizarding World —
+70 events drawn from the seven novels and the author's supplementary notes, then
+checked against the Harry Potter Lexicon's own entries. You can browse by day,
+search the lot, get a daily note, or copy every anniversary into your own
+calendar.</p>
+
+<h2>Common questions</h2>
+
+<div class="card">
+<h3>How do I turn on the daily notification?</h3>
+<p>Settings tab → <strong>On This Day Alerts</strong>, then pick a time. iOS will
+ask permission the first time. Only 44 days of the year have anything recorded
+on them, and the rest stay silent — you will not get an empty notification. Days
+with several events, like 2 May 1998, arrive as one notification rather than
+four.</p>
+</div>
+
+<div class="card">
+<h3>I ran the calendar export twice and now everything is duplicated.</h3>
+<p>That is a real limitation and not something you did wrong. <strong>Add to my
+calendar</strong> writes the anniversaries afresh every time it runs; it keeps no
+record of what it added before, so it cannot skip them.</p>
+<p>The reason is the permission it asks for. It requests <em>write-only</em>
+calendar access, which lets it add events but makes it technically incapable of
+reading your calendar back — so it genuinely cannot see that its own events are
+already there. Keeping the permission narrow was the deliberate choice; not
+de-duplicating is the price.</p>
+<p>To clean up, delete the duplicates in the Calendar app. If you would rather
+manage the import yourself, use <strong>Create calendar file</strong> instead —
+it hands you a standard <code>.ics</code> file, and you decide what happens to
+it.</p>
+</div>
+
+<div class="card">
+<h3>Why do fewer events export than the app contains?</h3>
+<p>Because not every date is known to the day. 61 of the 70 events have a real
+day of the year and become recurring anniversaries; the other 9 are known only
+to a month, a year, or approximately — the founding of Hogwarts, the Statute of
+Secrecy. Rather than invent a day for them, the app keeps them as a browsable
+timeline and leaves them out of the export.</p>
+</div>
+
+<div class="card">
+<h3>What do the “year only” and “circa” labels mean?</h3>
+<p>That the app knows the date less precisely than a day. Canon dates are
+unevenly known: some are stated outright, some are pinned only to a month or a
+year, and some are reconstructions worked back from the school calendar. Each
+event declares what it actually knows rather than rounding everything to a tidy
+date.</p>
+<p>Dates that <em>are</em> reconstructions but still name a specific day carry no
+label — there are enough of them that badging every one put a caveat on a large
+share of the list for a difference of a day or two. Instead, the event's note
+explains the reasoning, so you can judge it yourself.</p>
+</div>
+
+<div class="card">
+<h3>Where do the dates come from?</h3>
+<p>The seven novels first, then the author's supplementary notes. Every entry was
+then checked against the Harry Potter Lexicon's own pages, which found and fixed
+real errors — including several dates that were correct in themselves but
+credited to the wrong source, and one widely-repeated “fact” that turned out to
+trace to a single reconstruction the Lexicon itself labels as not canon.</p>
+<p>Where a date is inferred rather than quoted, the entry says so and explains
+why. A few birthdays circulate online with more confidence than their sourcing
+warrants, and the app tries not to add to that.</p>
+</div>
+
+<div class="card">
+<h3>iOS keeps asking me to confirm an icon change.</h3>
+<p>Changing your house in Settings changes the home screen icon to match, and
+iOS shows that confirmation every single time an app's icon changes. There is no
+supported way for an app to suppress it.</p>
+<p>Gryffindor is the exception: it uses the app's primary icon, so selecting it
+involves no icon change and no alert.</p>
+</div>
+
+<div class="card">
+<h3>I found an error in an event.</h3>
+<p>Please report it. Include the event title and what you believe the correct
+date or detail is, with a source if you have one. Corrections are welcome and are
+the main way the dataset improves.</p>
+</div>
+
+<h2>Contact</h2>
+<p>Questions, bug reports and corrections:
+<a href="mailto:nwyler@gmail.com">nwyler@gmail.com</a></p>
+
+<h2>Requirements</h2>
+<p>iPhone running iOS 18 or later. No account, no network connection, and no
+subscription. See the <a href="privacy.html">privacy policy</a> — the short
+version is that the app collects nothing.</p>
+
+<div class="disclaimer">
+<p>HP Calendar is an independent, fan-made reference work. It is not affiliated
+with, authorised by, endorsed by, or connected to Warner Bros. Entertainment
+Inc., J.K. Rowling, Pottermore, or any related entity.</p>
+<p>Harry Potter and the Wizarding World, and all associated names and marks, are
+the property of their respective owners.</p>
+</div>
+
+<footer>HP Calendar · Last updated 22 August 2026</footer>
+</div>
+</body>
+</html>
